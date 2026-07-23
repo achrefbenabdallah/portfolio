@@ -4,7 +4,7 @@ Personal portfolio of **Achref Ben Abdallah**, a full-stack Software Engineer an
 Built to showcase both sides of my work: the products I engineer (Angular, Spring Boot, Node.js)
 and the paid-growth campaigns I run on Meta.
 
-🔗 **Live:** _deploy on Vercel, then add the URL here_
+🔗 **Live:** _deploy on Vercel, https://portfolio-gules-nine-38.vercel.app
 
 ## Highlights
 
