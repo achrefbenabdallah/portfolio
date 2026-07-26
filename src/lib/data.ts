@@ -81,6 +81,7 @@ export const projects: Project[] = [
     tech: ["Angular 17", "Node.js", "Express", "PostgreSQL", "JWT", "Chart.js"],
     featured: true,
     cover: "commerce",
+    image: "/fashion-tool.jpg",
   },
   {
     name: "Synexio",
@@ -126,11 +127,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: "Frontend",
-    skills: ["Angular (v16)", "KnockoutJS", "Ionic", "React / Next.js"],
+    skills: ["Angular (v16/17)", "KnockoutJS", "Ionic", "React / Next.js", "Chart.js"],
   },
   {
     title: "Backend",
-    skills: ["Spring Boot", "Node.js", "Symfony", "REST APIs"],
+    skills: ["Spring Boot", "Node.js", "Express", "Symfony", "REST APIs", "JWT Auth"],
   },
   {
     title: "Cloud & DevOps",
