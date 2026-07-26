@@ -51,6 +51,8 @@ export const mediaHighlights = [
   "Sustained a 3.22% CTR at a $0.04 CPC and a $1.42 CPM across the account.",
 ];
 
+export type ProjectCover = "commerce" | "analytics" | "health" | "sports" | "travel";
+
 export type Project = {
   name: string;
   context: string;
@@ -59,9 +61,27 @@ export type Project = {
   highlights: string[];
   tech: string[];
   featured?: boolean;
+  cover: ProjectCover;
+  /** Optional real screenshot in /public; overrides the designed cover when set. */
+  image?: string;
 };
 
 export const projects: Project[] = [
+  {
+    name: "Fashion Tool",
+    context: "Personal project · Full-stack SaaS",
+    period: "2026",
+    description:
+      "A full-stack inventory and sales platform for fashion vendors — track products and fabric costs, record sales, and monitor profit through a live analytics dashboard.",
+    highlights: [
+      "Built a secure multi-user API with JWT auth, bcrypt hashing and PostgreSQL, scoping every product and sale per user",
+      "Automated profit tracking — each sale computes margin against fabric and product cost in real time",
+      "Shipped a Chart.js analytics dashboard plus product image uploads handled with Multer",
+    ],
+    tech: ["Angular 17", "Node.js", "Express", "PostgreSQL", "JWT", "Chart.js"],
+    featured: true,
+    cover: "commerce",
+  },
   {
     name: "Synexio",
     context: "Germany · End-of-studies internship",
@@ -75,6 +95,7 @@ export const projects: Project[] = [
     ],
     tech: ["Angular", "TypeScript", "Playwright", "Azure", "Cumulocity"],
     featured: true,
+    cover: "analytics",
   },
   {
     name: "CliniSeven",
@@ -89,30 +110,7 @@ export const projects: Project[] = [
     ],
     tech: ["Java", "Spring Boot", "Angular", "Figma", "SonarQube"],
     featured: true,
-  },
-  {
-    name: "TomorrowChamp",
-    context: "Tunisia · Sports tech",
-    period: "May 2021 – Jun 2021",
-    description:
-      "Platform connecting football players with recruiters through a robust, scalable architecture.",
-    highlights: [
-      "Increased application performance by 25%",
-      "Set up CI/CD with Jenkins, cutting release time by 30%",
-    ],
-    tech: ["Java", "Spring Boot", "Angular", "Jenkins", "Git"],
-  },
-  {
-    name: "Dhayefni",
-    context: "Tunisia · Travel",
-    period: "Oct 2020 – Dec 2020",
-    description:
-      "Hotel booking management application with a secure, high-performance backend.",
-    highlights: [
-      "Raised mobile conversion rate by 25% with a responsive UI",
-      "Cut average page response times by 30% (MySQL + Apache)",
-    ],
-    tech: ["Symfony", "JavaScript", "MySQL", "HTML/CSS", "Apache"],
+    cover: "health",
   },
 ];
 
