@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import { ArrowUpRight, Mail, MapPin } from "lucide-react";
 import { Github, Linkedin } from "./BrandIcons";
+import ResumeButton from "./ResumeButton";
 import { profile, mediaStats } from "@/lib/data";
 
 const fadeUp = {
@@ -93,6 +94,7 @@ export default function Hero() {
             >
               View my work
             </a>
+            <ResumeButton />
             <div className="ml-1 flex items-center gap-1">
               {[
                 { icon: Github, href: profile.socials.github, label: "GitHub" },

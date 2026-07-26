@@ -8,7 +8,18 @@ export const profile = {
   email: "achrefbenabdallah1@gmail.com",
   phone: "+216 25 198 540",
   photo: "/achref.jpg",
-  resume: "/Achref-Ben-Abdallah-CV.pdf",
+  resumes: [
+    {
+      label: "Software Engineer CV",
+      description: "Full-stack · Angular · Spring Boot",
+      file: "/Achref-Ben-Abdallah-Software-Engineer-CV.pdf",
+    },
+    {
+      label: "Media Buyer CV",
+      description: "Meta Ads · Performance marketing",
+      file: "/Achref-Ben-Abdallah-Media-Buyer-CV.pdf",
+    },
+  ],
   socials: {
     github: "https://github.com/achrefbenabdallah",
     linkedin: "https://www.linkedin.com/in/achref-ben-abdallah/",

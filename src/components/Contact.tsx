@@ -1,6 +1,7 @@
 import { ArrowUpRight, Mail, Phone } from "lucide-react";
 import { Github, Linkedin } from "./BrandIcons";
 import Reveal from "./Reveal";
+import ResumeButton from "./ResumeButton";
 import { profile } from "@/lib/data";
 
 const channels = [
@@ -32,7 +33,7 @@ export default function Contact() {
                 relocation. The fastest way to reach me is email.
               </p>
 
-              <div className="mt-8 flex flex-wrap justify-center gap-3">
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
                 <a
                   href={`mailto:${profile.email}`}
                   className="group inline-flex items-center gap-2 rounded-xl accent-gradient px-6 py-3 text-sm font-semibold text-black transition-transform hover:scale-[1.03]"
@@ -40,6 +41,7 @@ export default function Contact() {
                   Say hello
                   <ArrowUpRight size={16} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </a>
+                <ResumeButton />
               </div>
 
               <div className="mx-auto mt-10 grid max-w-2xl gap-3 sm:grid-cols-2">
