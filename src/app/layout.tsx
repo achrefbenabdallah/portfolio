@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://achref-portfolio.netlify.app";
+const siteUrl = "https://achref-ben-abdallah.netlify.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

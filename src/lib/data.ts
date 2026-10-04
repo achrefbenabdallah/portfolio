@@ -115,6 +115,7 @@ export const projects: Project[] = [
     ],
     tech: ["Angular 15", "TypeScript", "RxJS", "Node.js", "Sharp", "Netlify"],
     cover: "commerce",
+    image: "/ame-store.jpg",
   },
   {
     name: "CliniSeven",

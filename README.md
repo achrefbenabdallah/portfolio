@@ -4,7 +4,7 @@ Personal portfolio of **Achref Ben Abdallah**, a full-stack Software Engineer an
 Built to showcase both sides of my work: the products I engineer (Angular, Spring Boot, Node.js)
 and the paid-growth campaigns I run on Meta.
 
-🔗 **Live:** [achref-portfolio.netlify.app](https://achref-portfolio.netlify.app)
+🔗 **Live:** [achref-ben-abdallah.netlify.app](https://achref-ben-abdallah.netlify.app)
 
 ## Highlights
 
@@ -23,7 +23,7 @@ and the paid-growth campaigns I run on Meta.
 
 ## Deploy
 
-Deploys to [Netlify](https://www.netlify.com/) (Next.js is auto-detected via `netlify.toml`). Site name: `achref-portfolio` → https://achref-portfolio.netlify.app
+Deploys to [Netlify](https://www.netlify.com/) (Next.js is auto-detected via `netlify.toml`). Site name: `achref-ben-abdallah` → https://achref-ben-abdallah.netlify.app
 
 ## License
 
