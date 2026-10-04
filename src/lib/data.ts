@@ -65,8 +65,8 @@ export type Project = {
   cover: ProjectCover;
   /** Optional real screenshot in /public; overrides the designed cover when set. */
   image?: string;
-  /** Optional public link (repo or live site). */
-  link?: { href: string; label: string };
+  /** Optional public links (live site, repo). */
+  links?: { href: string; label: string }[];
 };
 
 export const projects: Project[] = [
@@ -84,7 +84,11 @@ export const projects: Project[] = [
     tech: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Firebase", "Gemini API", "Netlify Functions", "PWA"],
     featured: true,
     cover: "health",
-    link: { href: "https://github.com/achrefbenabdallah/Zid", label: "View code" },
+    image: "/zid.jpg",
+    links: [
+      { href: "https://nhebek-wa7ch.netlify.app", label: "Live app" },
+      { href: "https://github.com/achrefbenabdallah/Zid", label: "View code" },
+    ],
   },
   {
     name: "Fashion Tool",
@@ -116,6 +120,7 @@ export const projects: Project[] = [
     tech: ["Angular 15", "TypeScript", "RxJS", "Node.js", "Sharp", "Netlify"],
     cover: "commerce",
     image: "/ame-store.jpg",
+    links: [{ href: "https://ame-sewing.netlify.app", label: "Live store" }],
   },
   {
     name: "CliniSeven",

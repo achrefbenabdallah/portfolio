@@ -61,16 +61,21 @@ export default function Projects() {
                   ))}
                 </ul>
 
-                {project.link && (
-                  <a
-                    href={project.link.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-4 inline-flex w-fit items-center gap-1.5 text-sm font-medium text-accent hover:underline"
-                  >
-                    {project.link.label}
-                    <ArrowUpRight size={15} />
-                  </a>
+                {project.links && project.links.length > 0 && (
+                  <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+                    {project.links.map((l) => (
+                      <a
+                        key={l.href}
+                        href={l.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+                      >
+                        {l.label}
+                        <ArrowUpRight size={15} />
+                      </a>
+                    ))}
+                  </div>
                 )}
 
                 <div className="mt-auto flex flex-wrap gap-2 pt-5">
