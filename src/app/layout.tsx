@@ -18,13 +18,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://achref-benabdallah.vercel.app";
+const siteUrl = "https://achref-portfolio.netlify.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Achref Ben Abdallah — Software Engineer & Media Buyer",
   description:
-    "Full-stack software engineer (Angular, Spring Boot, Node.js) and Meta media buyer. I build the product and run the paid campaigns that grow it — 5.6× ROAS across $21K+ in tracked revenue.",
+    "Full-stack software engineer (Angular, React, Node.js, Spring Boot) and Meta media buyer. I build the product and run the paid campaigns that grow it — 8.0× ROAS across ~$88K in attributed revenue.",
   keywords: [
     "Achref Ben Abdallah",
     "Software Engineer",
@@ -32,6 +32,8 @@ export const metadata: Metadata = {
     "Media Buyer",
     "Meta Ads",
     "Angular",
+    "React",
+    "Node.js",
     "Spring Boot",
     "Performance Marketing",
     "Tunisia",

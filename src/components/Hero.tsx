@@ -142,7 +142,7 @@ export default function Hero() {
                 <p className="text-xs text-muted">Building & scaling products</p>
               </div>
               <span className="rounded-lg accent-gradient px-2 py-1 text-xs font-bold text-black">
-                5.6× ROAS
+                {mediaStats[1].value} ROAS
               </span>
             </div>
           </div>

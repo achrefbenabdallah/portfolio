@@ -12,7 +12,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Selected Work"
           title="Products I've engineered"
-          description="A selection of full-stack projects spanning SaaS, cloud and healthcare — including my end-of-studies internship in Germany."
+          description="A selection of full-stack projects spanning AI, e-commerce, SaaS and healthcare."
         />
 
         <div className="mt-10 grid gap-5 md:grid-cols-2">
@@ -60,6 +60,18 @@ export default function Projects() {
                     </li>
                   ))}
                 </ul>
+
+                {project.link && (
+                  <a
+                    href={project.link.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-4 inline-flex w-fit items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+                  >
+                    {project.link.label}
+                    <ArrowUpRight size={15} />
+                  </a>
+                )}
 
                 <div className="mt-auto flex flex-wrap gap-2 pt-5">
                   {project.tech.map((t) => (

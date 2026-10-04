@@ -60,7 +60,7 @@ export default function Experience() {
                 </h3>
                 <div className="mt-3 space-y-3 text-sm">
                   <div>
-                    <p className="font-medium">Software Engineering & Information Systems</p>
+                    <p className="font-medium">Engineering Degree — Software Engineering & Information Systems</p>
                     <p className="text-muted">TekUp University, Tunis · 2022</p>
                   </div>
                   <div>

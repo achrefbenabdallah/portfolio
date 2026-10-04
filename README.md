@@ -4,14 +4,14 @@ Personal portfolio of **Achref Ben Abdallah**, a full-stack Software Engineer an
 Built to showcase both sides of my work: the products I engineer (Angular, Spring Boot, Node.js)
 and the paid-growth campaigns I run on Meta.
 
-🔗 **Live:** _deploy on Vercel, [Open](https://portfolio-gules-nine-38.vercel.app)
+🔗 **Live:** [achref-portfolio.netlify.app](https://achref-portfolio.netlify.app)
 
 ## Highlights
 
-- **Engineering** — full-stack projects across cloud, healthcare, sports and travel, including an
-  end-of-studies internship in Germany.
-- **Media Buying** — live Meta Ads case study: **5.6× ROAS**, **$21K+** tracked revenue, **1,262**
-  purchases across **833K** people reached.
+- **Engineering** — full-stack projects across AI, e-commerce, SaaS and healthcare (Zid, Fashion Tool, AMÉ Store,
+  CliniSeven).
+- **Media Buying** — live Meta Ads case study: **8.0× ROAS**, **~$88K** attributed revenue, **4,435**
+  purchases across **1.5M** people reached.
 
 ## Tech stack
 
@@ -23,7 +23,7 @@ and the paid-growth campaigns I run on Meta.
 
 ## Deploy
 
-Deploys to [Vercel](https://vercel.com/) with zero config — import the repo and click deploy.
+Deploys to [Netlify](https://www.netlify.com/) (Next.js is auto-detected via `netlify.toml`). Site name: `achref-portfolio` → https://achref-portfolio.netlify.app
 
 ## License
 

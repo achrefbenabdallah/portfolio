@@ -7,7 +7,7 @@ const pillars = [
   {
     icon: Code2,
     title: "Engineering",
-    text: "2+ years shipping full-stack apps in Angular, Spring Boot & Node.js across e-commerce, logistics and healthcare.",
+    text: "3+ years shipping full-stack apps in Angular, React, Node.js & Spring Boot — now leading a team of 15 as Technical Project Lead.",
   },
   {
     icon: Megaphone,
